@@ -2,7 +2,7 @@ import Footer from "@/components/footer-section";
 import Hero from "@/components/hero-section";
 import { LogoSection } from "@/components/logo-section";
 import Navigation from "@/components/navbar-section";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
