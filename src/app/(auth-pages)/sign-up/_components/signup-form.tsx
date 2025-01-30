@@ -125,13 +125,13 @@ export default function SignUpForm() {
     <div className="w-full max-w-md space-y-8">
       <div className="space-y-6">
         <div className="flex items-center space-x-4">
-          <div className="w-12 h-12 bg-black rounded-sm flex items-center justify-center">
-            <span className="text-white font-serif text-2xl">R</span>
+          <div className="w-14 h-14 bg-black rounded-sm flex items-center justify-center">
+            <span className="text-white font-serif text-2xl">S</span>
           </div>
         </div>
         <div>
           <h1 className="text-2xl font-medium">Get Started</h1>
-          <p className="mt-2 text-gray-600">Welcome to Research Spotlight - Let&apos;s create your account</p>
+          <p className="mt-2 text-gray-600">Welcome to Sachetana - Let&apos;s create your account</p>
         </div>
       </div>
 

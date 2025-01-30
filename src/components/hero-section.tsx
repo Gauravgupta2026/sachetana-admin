@@ -50,7 +50,9 @@ export default function Hero() {
         
         <BackgroundLinesDemo />
         
-        <div className="mt-32">
+
+
+       <div className="mt-32">
                     <Image
                       src="/newDashboard.png"
                       alt="Dashboard"
