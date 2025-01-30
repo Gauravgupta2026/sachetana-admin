@@ -39,6 +39,7 @@
 // }
 
 import React from "react";
+import Image from "next/image";
 import { BackgroundLinesDemo } from "./newHero-section";
 
 export default function Hero() {
@@ -50,7 +51,7 @@ export default function Hero() {
         <BackgroundLinesDemo />
         
         <div className="mt-14">
-                    <img src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png" className="w-full shadow-lg rounded-lg border" alt="" />
+                    <Image src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png" className="w-full shadow-lg rounded-lg border" alt="" />
                 </div>
 
         {/* Conversation Module (commented out) */}

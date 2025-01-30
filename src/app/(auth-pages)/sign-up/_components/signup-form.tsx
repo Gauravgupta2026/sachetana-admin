@@ -131,7 +131,7 @@ export default function SignUpForm() {
         </div>
         <div>
           <h1 className="text-2xl font-medium">Get Started</h1>
-          <p className="mt-2 text-gray-600">Welcome to Research Spotlight - Let's create your account</p>
+          <p className="mt-2 text-gray-600">Welcome to Research Spotlight - Let&apos;s create your account</p>
         </div>
       </div>
 

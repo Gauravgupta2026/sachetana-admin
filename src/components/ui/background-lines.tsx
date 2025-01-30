@@ -5,11 +5,11 @@ import React from "react";
 
 export const BackgroundLines = ({
   children,
-  className,
   svgOptions,
 }: {
   children: React.ReactNode;
   className?: string;
+  name?: string;
   svgOptions?: {
     duration?: number;
   };
@@ -18,7 +18,6 @@ export const BackgroundLines = ({
     <div
       className={cn(
         "h-[20rem] md:h-auto w-full bg-white dark:bg-black",
-        className
       )}
     >
       <SVG svgOptions={svgOptions} />
