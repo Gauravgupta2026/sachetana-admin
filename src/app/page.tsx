@@ -1,7 +1,7 @@
 import { FeatureSection } from "@/components/features-section";
 import Footer from "@/components/footer-section";
 import Hero from "@/components/hero-section";
-import Logo, { LogoSection } from "@/components/logo-section";
+import LogoSection from "@/components/logo-section";
 import Navigation from "@/components/navbar-section";
 
 
@@ -12,7 +12,7 @@ export default function Home() {
       <Navigation/>
       <div>
         <Hero/>
-        <Logo/>
+        <LogoSection/>
         <FeatureSection/>
       </div>
       <Footer/>
