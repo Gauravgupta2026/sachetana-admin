@@ -50,8 +50,14 @@ export default function Hero() {
         
         <BackgroundLinesDemo />
         
-        <div className="mt-14">
-                    <Image src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png" className="w-full shadow-lg rounded-lg border" alt="" />
+       <div className="mt-32">
+                    <Image
+                      src="/newDashboard.png"
+                      alt="Dashboard"
+                      width={1000}
+                      height={1000}
+                      className="w-screen"
+                    />
                 </div>
 
         {/* Conversation Module (commented out) */}
