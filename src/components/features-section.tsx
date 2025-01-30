@@ -1,6 +1,6 @@
 
 import {Card, CardHeader, CardBody, CardFooter} from "@heroui/card";
-import { DotBackgroundDemo } from "./ui/dots";
+
 
 
 export function FeatureSection() {
