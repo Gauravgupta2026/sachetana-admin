@@ -1,5 +1,7 @@
 
 import {Card, CardHeader, CardBody, CardFooter} from "@heroui/card";
+import { DotBackgroundDemo } from "./ui/dots";
+
 
 export function FeatureSection() {
 
@@ -24,9 +26,11 @@ const features = [
 
     return (
         <section  className=" py-16m  md:py-24 lg:py-20 mb-32 px-12">
+            
             <div className=" bg-gray-50 px-4 md:px-20 py-10 pb-20">
                 <div className="flex flex-col items-center  text-center">
-                    <div className="inline-block rounded-lg bg-gray-100 px-5 py-2 text-sm">Our features</div>
+                    <div className="inline-block rounded-lg bg-gray-100 px-10  py-2 text-sm">Our Features</div>
+                    
                     <h2 className="text-3xl mt-10 font-bold tracking-tighter text-[#00584D] sm:text-4xl md:text-5xl">
                         Discover the Lively Difference
                     </h2>
